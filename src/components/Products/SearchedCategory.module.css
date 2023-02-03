@@ -1,0 +1,47 @@
+.searched-category {
+  max-width: 136rem;
+  margin: 0 auto;
+  margin-top: 6.4rem;
+}
+.searched-heading {
+  font-size: 2.8rem;
+  font-weight: 500;
+  padding: 0 1.6rem;
+  margin: 0;
+  margin-bottom: 2.4rem;
+  color: var(--color-grey-700);
+}
+/* list */
+.grid {
+    display: grid;
+    row-gap: 3.2rem;
+    column-gap: 3.2rem;
+  }
+  .grid--6-cols {
+    grid-template-columns: repeat(6, 1fr);
+  }
+.searched-list{
+    list-style: none;
+    padding: 0;
+}
+.searched-list-item-link {
+  text-decoration: none;
+}
+/* Card */
+.searched-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.searched-card-img {
+  width: 100%;
+  height: 19.3rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.searched-card-text {
+  font-size: 2rem;
+  color: var(--color-grey-700);
+  padding: 0.4rem;
+  margin-top: 1.6rem;
+}

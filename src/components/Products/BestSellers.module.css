@@ -1,0 +1,62 @@
+/* general */
+.bestsellers {
+  max-width: 136rem;
+  margin: 0 auto;
+  margin-top: 6.4rem;
+}
+/* heading */
+.bestsellers-heading {
+  font-size: 2.8rem;
+  font-weight: 500;
+  padding: 0 1.6rem;
+  margin: 0;
+  margin-bottom: 2.4rem;
+  color: var(--color-grey-700);
+}
+/* List */
+.grid {
+  display: grid;
+  row-gap: 1.6rem;
+  column-gap: 2.4rem;
+}
+.grid--6-cols {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.bestsellers-list {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+
+/* Link */
+.bestsellers-list-item-link {
+  text-decoration: none;
+}
+
+/* Card */
+.bestsellers-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bestsellers-card-image-box {
+  overflow: hidden;
+  height: 20.6rem;
+  border-radius: 10px;
+}
+.bestsellers-card-image {
+  width: 100%;
+
+  object-fit: cover;
+}
+.img-resize{
+    height: 20.6rem;
+}
+.bestsellers-card-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-grey-700);
+  padding: 0.4rem;
+  margin-top: 1.6rem;
+}

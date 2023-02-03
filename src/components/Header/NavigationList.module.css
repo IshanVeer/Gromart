@@ -1,0 +1,23 @@
+.secondary-navigation-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 136rem;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 3.2rem;
+}
+.secondary-navigation-list-item {
+  padding: 1.2rem 1.6rem;
+  font-size: 1.6rem;
+}
+.secondary-navigation-list-item--link {
+  text-decoration: none;
+  color: var(--color-grey-800);
+  display: inline-block;
+  transition: all 0.2s;
+}
+.secondary-navigation-list-item--link:hover {
+  color: var(--primary-color);
+}

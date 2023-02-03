@@ -1,10 +1,11 @@
 import { Outlet } from "react-router-dom";
 import React, { Fragment } from "react";
+import MainNavigation from "../components/Header/MainNavigation";
 
 const RootPage = () => {
   return (
     <Fragment>
-      <h1>Root Page</h1>
+      <MainNavigation />
       <main>
         <Outlet />
       </main>

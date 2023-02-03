@@ -1,0 +1,48 @@
+/* general */
+.brand-shopping {
+  max-width: 136rem;
+  margin: 0 auto;
+  margin-top: 6.4rem;
+}
+/* container */
+.brand-container {
+  display: flex;
+  align-items: center;
+  gap: 15rem;
+}
+.brand-img {
+  width: 48rem;
+  height: 64rem;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.brand-text-box {
+  width: 90rem;
+}
+.brand-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--color-grey-700);
+  margin: 0;
+
+  margin-bottom: 2.4rem;
+}
+
+.brand-para {
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  line-height: 2.4rem;
+  color: var(--color-grey-400);
+  margin: 0;
+
+  margin-bottom: 2rem;
+}
+.brand-link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fff;
+  display: inline-block;
+  background-color: var(--primary-color);
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+}
